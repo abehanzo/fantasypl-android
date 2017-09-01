@@ -19,7 +19,7 @@ public class Rise extends android.support.v4.app.Fragment {
 
         View view = inflater.inflate(R.layout.rise,container,false);
         RecyclerView recyclerView;
-        final ArrayList<Players> players = new ArrayList<Players> ();
+        final ArrayList<Players> players = new ArrayList<> ();
         players.add(new Players("Gibbs","Defender",R.drawable.profile_pic, "9.2","921731"));
         players.add(new Players("Gibbs","Defender",R.drawable.profile_pic, "9.2","921731"));
         players.add(new Players("Gibbs","Defender",R.drawable.profile_pic, "9.2","921731"));
